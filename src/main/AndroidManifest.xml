@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.boxresin.simpleandroidproject">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@android:mipmap/sym_def_app_icon"
+        android:label="SimpleAndroidProject">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
